@@ -1,0 +1,112 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+ }
+
+
+
+
+ .container {
+   
+    background-image: url(music-background.jpg);
+    text-align: center;
+    height: 620px;
+    width: 100%;
+    
+
+    }
+    /* .hidden {
+        display: none;
+    } */
+    
+  
+
+
+.header {
+    text-align: center;
+   color: white ;
+    
+    
+}
+
+p{
+    color: rgb(255, 102, 0);
+    font-size: 20px;
+    font-weight: 100;
+    text-shadow: 2px 2px  black;
+}
+.box {
+    border: 10px solid rgb(107, 97, 97);
+    background-color: white;
+    color: rgb(29, 1, 1);
+    width: 30%;
+    height: 450px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.first_music {
+    border: 2px solid white;
+    background-color: rgb(22, 0, 0);
+    color: rgb(29, 1, 1);
+    width: 60%;
+    height: 20px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.cancel-button {
+    width: 30%;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.copy-right {
+    color: white;
+} 
+
+
+ @media only screen and (max-width: 768px) {
+
+
+    
+ .container {
+   
+    background-image: url(music-background.jpg);
+    text-align: center;
+    height: 720px;
+    width: 100%;
+    margin-top: -20px;
+    
+
+    }
+
+    .box {
+        border: 8px solid rgb(82, 78, 78);
+        background-color: white;
+        color: rgb(253, 6, 6);
+        width: 70%;
+        height: 500px;
+        padding: 20px;
+        margin: auto;
+        border-radius: 7px;
+    }
+    
+    .first_music {
+        border: 2px solid white;
+        background-color: rgb(22, 0, 0);
+        color: rgb(29, 1, 1);
+        width: 80%;
+        height: 20px;
+        padding: 15px;
+        margin: auto;
+        border-radius: 7px;
+    };
+    .copy-right {
+        color: white;
+    }
+ };  
+
+ 

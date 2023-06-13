@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    
+    <style>
+
+       
+         .interface{
+    background-image: url(background.gif);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 350px; 
+   
+}
+
+
+
+.interface h1 {
+    color: white;
+    text-align: center;
+    margin-right: 320px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    border-bottom: 3px solid white;
+    text-shadow: 2px 3px  black;
+  
+}
+
+.app-name {
+    font-size: 60px;
+    color: rgb(255, 0, 55);
+    margin-right: 320px;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    opacity: 80%;
+    text-shadow: 5px 5px black;
+}
+
+.form-label {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-left: -320px;
+    margin-top: -15px;
+    font-family: sans-serif;
+}
+
+.open-button {
+    width: 40%;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    margin-left: -320px;
+    
+   
+}
+
+.hidden {
+    display: none;
+}
+
+.submit_button {
+    width: 5%;
+    height: 35px;
+    background-color: rgb(25, 1, 160);
+    color: white;
+    margin-left: 20px;
+    margin-top: -15px;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 5px;
+   
+   
+}
+
+ 
+
+.email {
+    height: 30px;
+    width: 280px;
+    outline: none;
+}
+
+.email:valid {
+    border: 1px solid green;
+}
+
+.email:invalid {
+    border: 1px solid rgb(253, 3, 3);
+}
+
+.error_message {
+    color: rgb(255, 252, 252);
+    font-size: 15px;
+}
+
+
+
+@media only screen and (max-width: 768px)  {
+
+    body {
+            background-color: rgb(137, 81, 189) ;
+        }
+    
+
+
+.interface{
+    background-image: url(background.gif);
+    background-repeat: repeat;
+    width: 100%;
+    height: 600px;
+    margin-left: 1px;
+    margin-top: 80px;
+   
+  
+   
+   
+}
+
+
+
+.interface h1 {
+    color: white;
+     width: 300px;
+    margin-left: 30px;
+    margin-top: -15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 7px;
+    border: 2px solid white;
+    text-shadow: 2px 3px  black;
+  
+}
+
+.app-name {
+    font-size: 60px;
+    
+    color: rgb(255, 0, 0);
+    margin-left: 80px;
+    margin-top: 50px;
+    width: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    opacity: 88%;
+    text-shadow: 5px 5px black;
+}
+
+.form-label {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-bottom: -40px;
+    font-family: sans-serif;
+}
+
+.open-button {
+    width: 40%;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 20px;
+    font-weight: 100;
+   
+   
+}
+
+.submit_button {
+    width: 10%;
+    height: 35px;
+    background-color: rgb(0, 4, 255);
+    color: white;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    border-radius: 5px;
+    border: none;
+    float: right;
+   
+   
+}
+
+
+
+ 
+
+.email {
+    height: 50px;
+    width: 295px;
+    outline: none;
+    margin-left: 240px;
+    margin-top: 40px;
+    font-size: 20px;
+
+}  
+.error_message {
+    color: rgb(253, 252, 252);
+    font-size: 18px;
+    margin-left: 270px;
+}
+
+
+}
+ 
+    </style>
+</head>
+<body>
+    
+    <div class="interface ">
+        <h1>My Music App</h1>
+        <p class="app-name"><strong>MIDEY <br>  AUDIO PLAYER</strong> </p>
+        
+        <p class="form-label"><strong>Email:</strong> 
+             <input type="email"
+                    value="" 
+                    class="email"
+                    placeholder="Enter your email address"
+                    name="email"
+                    minlength="20"
+                    maxlength="50"
+                    required  /><input type="button" value="Submit"  class="submit_button"><br>
+                    <span class="error_message"><strong>Email is required</strong> </span>
+                    
+                    
+                    
+                   
+                  </p>
+                  <a href="music.html" class="link hidden">
+                    <input type="button"
+                    value="OPEN" 
+                    class="open-button"></a>
+
+                    
+                    
+                  
+        
+    </div>
+    <script src="music.js"></script> 
+</body>
+</html>
